@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
+import "../styles/question.css";
 
 export default function QuestionPage() {
   const { question_id } = useParams();
@@ -7,6 +8,7 @@ export default function QuestionPage() {
   const questionId = parseInt(question_id, 10);
   const totalQuestion = 10;
 
+  // move to next question
   const handleNextQuestion = () => {
     const nextQuestionId = questionId + 1;
     if (nextQuestionId <= totalQuestion) {
@@ -16,6 +18,7 @@ export default function QuestionPage() {
     }
   };
 
+  // move to prev question
   const handlePrevQuestion = () => {
     const prevQuestionId = questionId - 1;
     if (prevQuestionId > 0) {
