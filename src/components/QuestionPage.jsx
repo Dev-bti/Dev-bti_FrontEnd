@@ -18,7 +18,11 @@ export default function QuestionPage() {
 
   const handlePrevQuestion = () => {
     const prevQuestionId = questionId - 1;
-    navigate(`/question/${prevQuestionId}`);
+    if (prevQuestionId > 0) {
+      navigate(`/question/${prevQuestionId}`);
+    } else {
+      navigate(`/`);
+    }
   };
 
   return (
