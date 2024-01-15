@@ -1,0 +1,39 @@
+[
+  {
+    "Question": "질문 1번",
+    "Image": false,
+    "Answers": [
+      {
+        "Answer": "질문 1번의 답변 1번",
+        "Score_front": 10,
+        "Score_back": 0
+      },
+      {
+        "Answer": "질문 1번의 답변 2번",
+        "Score_front": 0,
+        "Score_back": 10
+      }
+    ]
+  },
+  {
+    "Question": "질문 2번",
+    "Image": true,
+    "Answers": [
+      {
+        "Answer": "질문 2번의 답변 1번",
+        "Score_front": 10,
+        "Score_back": 0
+      },
+      {
+        "Answer": "질문 2번의 답변 2번",
+        "Score_front": 0,
+        "Score_back": 10
+      },
+      {
+        "Answer": "질문 2번의 답변 3번",
+        "Score_front": 5,
+        "Score_back": 5
+      }
+    ]
+  }
+]
