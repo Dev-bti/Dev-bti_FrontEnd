@@ -1,0 +1,37 @@
+{
+  "Type": "프론트엔드",
+  "Adjective": "감각적인",
+  "Image": "https://images.unsplash.com/photo-1543682704-15adeb008ac4?q=80&w=2796&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "Personality": [
+    "당신은 이러이러한 성향이다(1)",
+    "당신은 이러이러한 성향이다(2)",
+    "당신은 이러이러한 성향이다(3)"
+  ],
+  "Work": [
+    "당신은 이러이러한 일을 한다(1)",
+    "당신은 이러이러한 일을 한다(2)",
+    "당신은 이러이러한 일을 한다(3)"
+  ],
+  "Language": [
+    {
+      "name": "HTML",
+      "img": "https://images.unsplash.com/photo-1682686581413-0a0ec9bb35bb?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "name": "CSS",
+      "img": "https://images.unsplash.com/photo-1682686581413-0a0ec9bb35bb?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "name": "JavaScript",
+      "img": "https://images.unsplash.com/photo-1682686581413-0a0ec9bb35bb?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    }
+  ],
+  "Study": [
+    {
+      "title": "추천 강의 1번",
+      "img": "https://images.unsplash.com/photo-1682686581413-0a0ec9bb35bb?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {},
+    {}
+  ]
+}
