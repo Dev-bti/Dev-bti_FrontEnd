@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-color: #a1b2b3;
+}
+.content-container {
+  width: 30%;
+  height: 100%;
+  background-color: #ffffff;
+}
