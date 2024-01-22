@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import "../styles/question.css";
+import "../styles/global.css";
 
 export default function QuestionPage() {
   const { question_id } = useParams();
@@ -29,10 +30,12 @@ export default function QuestionPage() {
   };
 
   return (
-    <div>
-      <h1>여기는 {questionId}번째 질문 페이지입니다.</h1>
-      <button onClick={handlePrevQuestion}>이전 질문</button>
-      <button onClick={handleNextQuestion}>다음 질문</button>
+    <div className="container">
+      <div className="content-container question-page">
+        <h1>여기는 {questionId}번째 질문 페이지입니다.</h1>
+        <button onClick={handlePrevQuestion}>이전 질문</button>
+        <button onClick={handleNextQuestion}>다음 질문</button>
+      </div>
     </div>
   );
 }
