@@ -7,7 +7,16 @@ export default function StartPage() {
   return (
     <div className="container">
       <div className="content-container start-page">
-        <img src="" alt="" />
+        <img
+          src="/assets/img/joohyun.png"
+          alt="joohyun"
+          className="main-img joohyun"
+        />
+        <img
+          src="/assets/img/jaeseung.png"
+          alt="jaeseung"
+          className="main-img jaeseung"
+        />
         <h1>
           나의 <span>Dev</span>-BTI
         </h1>
