@@ -1,0 +1,94 @@
+.result-page {
+  overflow: scroll;
+  display: flex;
+  flex-direction: column;
+  color: #404040;
+  background-color: #f3f3f3;
+}
+.result-page::-webkit-scrollbar {
+  display: none;
+}
+.result-page .border-line {
+  width: 85%;
+  height: 1.5px;
+  background-color: #dedede;
+}
+
+.result-page .type-area {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.type-area p {
+  margin-top: 60px;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+.type-area h2 {
+  font-size: 2rem;
+  font-weight: 350;
+  margin-bottom: 25px;
+}
+.type-area > img {
+  width: 65%;
+  height: 80%;
+}
+
+.result-page .personality-area {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.personality-area > .personality-area-top {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.personality-area-top > p {
+  margin: 17px 0;
+  font-size: 1rem;
+}
+.personality-area-top > p > span {
+  color: #5fb5bb;
+  font-weight: bold;
+}
+.personality-area > .personality-area-content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.personality-area-content > ul {
+  width: 80%;
+  height: 80%;
+  margin-left: 50px;
+  margin-bottom: 90px;
+}
+.personality-area-content > ul > li {
+  margin: 15px 0;
+  font-size: 0.9rem;
+}
+
+.result-page .role-area {
+  background-color: #bdde9a;
+}
+
+.result-page .language-area {
+  background-color: #89ddca;
+}
+
+.result-page .lecture-area {
+  background-color: #988cda;
+}
+
+.result-page .button-area {
+  background-color: #d994d2;
+}
+
+.result-page .developer-area {
+  background-color: #de9696;
+}
